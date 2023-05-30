@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\code\cpp\visualstudio\git\Minesweeper-git\x64\Debug\minesweepgame.exe</FullPath>
+      <FullPath>D:\code\cpp\visualstudio\git\Minesweeper-git\Debug\minesweepgame.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
