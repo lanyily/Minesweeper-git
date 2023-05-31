@@ -1,4 +1,5 @@
 #include<iostream>
+#include"MineMap.h"
 int main()
 {
 	std::cout << "command line mode" << std::endl;
