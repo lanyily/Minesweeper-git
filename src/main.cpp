@@ -6,3 +6,4 @@ int main()
 	std::cout << "minesweeper game" << std::endl;
 	return 0;
 }
+

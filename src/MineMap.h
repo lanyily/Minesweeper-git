@@ -6,6 +6,8 @@
 #define SAFEGRID 100
 #define MINEGRID 99
 
+#define GAMESUCCESS 2
+
 class MineMap
 {
 public:
@@ -32,5 +34,7 @@ private:
     int timer;          // 计时器
     int firstclick;     // 是否为第一次点击
 
-    int ctnflag(int m, int n);   // 返回m,n格子周围的棋子的数量 
+    int aroundflag(int m, int n);           // 返回m,n格子周围的棋子的数量 
+    bool invalidposition(int m, int n);     // 判断位置是否合法，1-非法，0-合法
+    bool cleararound(int m, int n);         // 左键点击周围8格的合法位置
 };
